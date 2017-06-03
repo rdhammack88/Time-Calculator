@@ -6,7 +6,7 @@ $(document).ready(function() {
     var x = 0, hr, min, sec;
     var hoursList = 0, minutesList = 0, secondsList = 0;
     var totalHours = 0, totalMinutes = 0, totalSeconds = 0, totalDays = 0;
-    var timesList = document.getElementsByTagName('li');
+    var timesList = $('li');
 
     // CHANGING THE SELECTED <INPUT> DEPENDING ON THE FOCUS OF THE ELEMENT
     $('#hours').focusin(function() {
