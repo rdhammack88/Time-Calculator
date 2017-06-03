@@ -2,10 +2,8 @@
 <html>
 <head>
     <title>Time Calculator</title>
-
 <!--    <link rel="stylesheet" href="styles/normalize.css" type="text/css">-->
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
-
     <meta name="Time Calculator" content="Add times together without having to do any math!">
     <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js></script>
@@ -22,12 +20,6 @@
             <label for="minutes" id="min_lbl">Minutes:</label>
             <label for="seconds" id="sec_lbl">Seconds:</label>
             <br>
-
-    <!--
-            placeholder="hours"
-            placeholder="minutes"
-            placeholder="seconds"
-    -->
             <input type="number" name="time" id="hours" min="0" placeholder="hours">
             <input type="number" name="time" id="minutes" min="0" placeholder="minutes">
             <input type="number" name="time" id="seconds" min="0" placeholder="seconds">
@@ -111,19 +103,11 @@
 
                 <p></p>
             </fieldset>
+
             <button type="reset" id="clear_time">Clear Time List</button>
             <button type="reset" name="remove" id="remove">Remove Specific Time</button>
             <input type="number" name="remove" id="remove_index" placeholder="# 1-60" min="1" max="60">
-
-            <!-- <input type="submit" name="" value="Add Time">
-            <input type="submit" name="" value="Calculate Times">
-            <input type="submit" name="" value="Clear Whole List">
-            <input type="submit" name="remove" value="Remove Specific Time">
-            <input type="text" name="remove"> -->
-
         </form>
-
-
 
     </div> <!-- #container -->
 
@@ -140,5 +124,6 @@
 
     <!-- Custom Scripts -->
     <script type="text/javascript" src="scripts/script.js"></script>
+
 </body>
 </html>
